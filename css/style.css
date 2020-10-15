@@ -10,7 +10,7 @@ body{
 
 .container{
   width: 75%;
-  margin: 10px auto;
+  margin: 20px auto;
   background-color: pink;
 }
 
@@ -60,6 +60,11 @@ header{
   padding: 0 60px;
   background-color: orange;
 }
+.vertical-blocks::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .ver-block{
   width: 31%;
@@ -89,9 +94,80 @@ header{
   height: 85vh;
   background-color: grey;
 }
+.last-block-top{
+  width: 100%;
+  height: 35%;
+  background-color: yellow;
+}
+.last-block-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-left{
+  width: 40%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+.top-right{
+  width: 60%;
+  height: 100%;
+  background-color: pink;
+  float: left;
+}
+.last-block-bottom{
+  width: 100%;
+  height: 65%;
+  background-color: orange;
+}
+.last-block-bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-left{
+  width: 40%;
+  height: 100%;
+  background-color: red;
+  float: left;
+
+}
+.bottom-right{
+  width: 60%;
+  height: 100%;
+  background-color: yellow;
+  float: left;
+}
 
 footer{
   width: 100%;
-  height: 85vh;
+  padding-top: 10px;
+  height: 60vh;
   background-color: green;
+}
+.elenchi{
+  width: 70%;
+  height: 75%;
+  margin: auto;
+  background-color: brown;
+}
+.elenchi::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.list{
+  width: 25%;
+  height: 100%;
+  background-color: lightblue;
+  border: 1px solid black;
+  float: left;
+}
+.bottom-footer{
+  width: 80%;
+  height: 25%;
+  margin: auto;
+  background-color: pink;
 }
