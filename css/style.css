@@ -21,37 +21,48 @@ header{
   margin: 0px auto;
 }
 
+.list-style{
+  height: 100%;
+  list-style: none;
+  
+}
+.list-style li{
+  display: inline-block;
+}
+
+
 .header-top{
   height: 80px;
   width: 100%;
-  background-color: yellow;
+  background-color: #F4F9FD;
 }
 .header-top-left{
   float: left;
   height: 100%;
   width: 40%;
-  background-color: red;
+
 }
 .header-top-right{
   float: right;
   height: 100%;
   width: 40%;
-  background-color: blue;
+
 }
 .header-bottom{
   height: 80px;
   width: 100%;
-  background-color: yellow;
+  background-color: white;
+
 }
 .header-bottom-left{
   float: left;
   height: 100%;
   width: 40%;
-  background-color: red;
+
 }
 .header-bottom-right{
   float: right;
   height: 100%;
   width: 40%;
-  background-color: blue;
+
 }
