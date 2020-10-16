@@ -16,20 +16,11 @@ body{
   margin: 0 auto;
 }
 
-.list-inline{
-  height: 100%;
-  list-style: none;
-}
-.list-inline li{
-  height: 100%;
-  display: inline-block;
-  padding: 0 10px;
-}
 
 
 header{
   height: 700px;
-  background-color: yellow;
+  background-color: #FFF4EF;
 }
 
 .header-top{
@@ -40,19 +31,15 @@ header{
 .header-top-left{
   float: left;
   height: 100%;
-
 }
 .header-top-right{
   float: right;
   height: 100%;
-
 }
-
 .header-bottom{
   height: 80px;
   background-color: white;
 }
-
 
 main{
   height: 1600px;
@@ -61,5 +48,5 @@ main{
 
 footer{
   height: 800px;
-  background-color: purple;
+  background-color: #32495B;
 }
