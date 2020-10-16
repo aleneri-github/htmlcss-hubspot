@@ -10,6 +10,12 @@ body{
   color: #33475B;
 }
 
+.container-70{
+  width: 70px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 header{
   height: 700px;
   background-color: yellow;
