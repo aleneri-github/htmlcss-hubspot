@@ -15,6 +15,17 @@ header{
   background-color: yellow;
 }
 
+.header-top{
+  height: 80px;
+  background-color: #F4F9FD;
+  border-bottom: 1px solid black;
+}
+
+.header-bottom{
+  height: 80px;
+  background-color: white;
+}
+
 
 main{
   height: 1600px;
