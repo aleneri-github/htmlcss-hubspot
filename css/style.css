@@ -10,43 +10,48 @@ body{
   color: #33475B;
 }
 
-.container-70{
-  width: 70px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-
-
 header{
   height: 700px;
-  background-color: #FFF4EF;
+  background-color: lightgreen;
+}
+
+.contenitore70{
+  height: 100%;
+  width: 70%;
+  margin: 0px auto;
 }
 
 .header-top{
   height: 80px;
-  background-color: #F4F9FD;
-  border-bottom: 1px solid black;
+  width: 100%;
+  background-color: yellow;
 }
 .header-top-left{
   float: left;
   height: 100%;
+  width: 40%;
+  background-color: red;
 }
 .header-top-right{
   float: right;
   height: 100%;
+  width: 40%;
+  background-color: blue;
 }
 .header-bottom{
   height: 80px;
-  background-color: white;
+  width: 100%;
+  background-color: yellow;
 }
-
-main{
-  height: 1600px;
-  background-color: pink;
+.header-bottom-left{
+  float: left;
+  height: 100%;
+  width: 40%;
+  background-color: red;
 }
-
-footer{
-  height: 800px;
-  background-color: #32495B;
+.header-bottom-right{
+  float: right;
+  height: 100%;
+  width: 40%;
+  background-color: blue;
 }
