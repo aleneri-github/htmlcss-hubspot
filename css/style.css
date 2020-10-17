@@ -21,6 +21,12 @@ header{
   margin: 0px auto;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .list-inline{
   height: 100%;
   list-style: none;
@@ -50,7 +56,7 @@ header{
 .bottom-style{
   display: inline;
   padding: 10px;
-  font-style: 14px;
+  font-size: 14px;
   max-height: 100%;
   border: 1px solid #FE775A;
   border-radius: 5px;
@@ -58,10 +64,13 @@ header{
 a.bottom-style:hover{
   text-decoration: none;
 }
-
 a.bottom-style-orange{
   background-color: #FE775A;
   color: white;
+}
+a.bottom-style-white{
+  background: white;
+  color: #FE775A;
 }
 
 
@@ -90,13 +99,16 @@ a.bottom-style-orange{
   height: 80px;
   width: 100%;
   background-color: white;
-
 }
 .header-bottom-left{
   float: left;
   height: 100%;
 }
+#logo{
+  max-width: 100px;
+  padding-top: 25px;
+}
 .header-bottom-right{
   float: right;
-  height: 100%;
+  height: 100%;  
 }
