@@ -11,8 +11,7 @@ body{
 }
 
 header{
-  height: 700px;
-  background-color: lightgreen;
+  background-color: #FFF3EE;
 }
 
 .contenitore70{
@@ -73,7 +72,6 @@ a.bottom-style-white{
   color: #FE775A;
 }
 
-
 .header-top{
   height: 80px;
   width: 100%;
@@ -115,4 +113,12 @@ a.bottom-style-white{
 }
 .header-bottom-right i{
   padding-left: 15px;
+}
+
+#jumbotron{
+height: 695px;
+background-image: url('../img/jumbotron.png');
+background-position: right;
+background-repeat: no-repeat;
+
 }
