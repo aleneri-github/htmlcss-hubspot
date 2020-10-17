@@ -110,5 +110,9 @@ a.bottom-style-white{
 }
 .header-bottom-right{
   float: right;
-  height: 100%;  
+  height: 100%;
+  padding-bottom: 50px;
+}
+.header-bottom-right i{
+  padding-left: 15px;
 }
