@@ -21,13 +21,29 @@ header{
   margin: 0px auto;
 }
 
-.list-style{
+.list-inline{
   height: 100%;
   list-style: none;
-  
+
 }
-.list-style li{
+.list-inline li{
+  height: 100%;
+  line-height: 79px;
   display: inline-block;
+  padding: 0 10px;
+}
+.list-inline li:first-child{
+  padding-left: 0;
+}
+.list-inline li:last-child{
+  padding-right: 0;
+}
+.list-inline a{
+  text-decoration: none;
+  color: #33475B;
+}
+.list-inline a:hover{
+  text-decoration: underline;
 }
 
 
@@ -35,12 +51,19 @@ header{
   height: 80px;
   width: 100%;
   background-color: #F4F9FD;
+  border-bottom: 1px solid black;
 }
 .header-top-left{
   float: left;
   height: 100%;
   width: 40%;
-
+}
+.header-top-left li a{
+  padding-right: 20px;
+  border-right: 1px solid #33475B;
+}
+.header-top-left li:last-child a{
+  border-right: 0;
 }
 .header-top-right{
   float: right;
