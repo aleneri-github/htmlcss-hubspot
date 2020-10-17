@@ -24,7 +24,6 @@ header{
 .list-inline{
   height: 100%;
   list-style: none;
-
 }
 .list-inline li{
   height: 100%;
@@ -45,6 +44,25 @@ header{
 .list-inline a:hover{
   text-decoration: underline;
 }
+#search{
+  color: #75CAD9
+}
+.bottom-style{
+  display: inline;
+  padding: 10px;
+  font-style: 14px;
+  max-height: 100%;
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+}
+a.bottom-style:hover{
+  text-decoration: none;
+}
+
+a.bottom-style-orange{
+  background-color: #FE775A;
+  color: white;
+}
 
 
 .header-top{
@@ -56,7 +74,6 @@ header{
 .header-top-left{
   float: left;
   height: 100%;
-  width: 40%;
 }
 .header-top-left li a{
   padding-right: 20px;
@@ -68,8 +85,6 @@ header{
 .header-top-right{
   float: right;
   height: 100%;
-  width: 40%;
-
 }
 .header-bottom{
   height: 80px;
@@ -80,12 +95,8 @@ header{
 .header-bottom-left{
   float: left;
   height: 100%;
-  width: 40%;
-
 }
 .header-bottom-right{
   float: right;
   height: 100%;
-  width: 40%;
-
 }
