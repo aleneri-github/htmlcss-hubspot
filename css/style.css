@@ -53,10 +53,10 @@ header{
   color: #75CAD9
 }
 .bottom-style{
-  display: inline;
+  display: inline-block;
   padding: 10px;
   font-size: 14px;
-  max-height: 100%;
+  line-height: 16px;
   border: 1px solid #FE775A;
   border-radius: 5px;
 }
@@ -70,6 +70,12 @@ a.bottom-style-orange{
 a.bottom-style-white{
   background: white;
   color: #FE775A;
+}
+a.bottom-style-orange-big{
+  padding: 20px 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .header-top{
@@ -120,5 +126,24 @@ height: 695px;
 background-image: url('../img/jumbotron.png');
 background-position: right;
 background-repeat: no-repeat;
-
+}
+.text-jumbotron{
+  width: 550px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.text-jumbotron h1{
+  font-size: 45px;
+  color: #33475B;
+}
+.text-jumbotron p{
+  padding-top: 30px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.text-jumbotron span{
+  display: block;
+  font-size: 10px;
 }
