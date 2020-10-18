@@ -14,11 +14,26 @@ header{
   background-color: #FFF3EE;
 }
 
+p{
+  padding-top: 30px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .contenitore70{
   height: 100%;
   width: 70%;
   margin: 0px auto;
 }
+
+.contenitore85{
+  width: 85%;
+  height: 50%;
+  margin: auto;
+}
+
+
 
 .clearfix::after{
   content: "";
@@ -79,10 +94,14 @@ a.bottom-style-orange-big{
 }
 
 .header-top{
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 80px;
   width: 100%;
   background-color: #F4F9FD;
   border-bottom: 1px solid black;
+  z-index: 2;
 }
 .header-top-left{
   float: left;
@@ -100,6 +119,7 @@ a.bottom-style-orange-big{
   height: 100%;
 }
 .header-bottom{
+  margin-top: 80px;
   height: 80px;
   width: 100%;
   background-color: white;
@@ -128,22 +148,31 @@ background-position: right;
 background-repeat: no-repeat;
 }
 .text-jumbotron{
-  width: 550px;
+  width: 60%;
   height: 400px;
-  margin-top: 80px;
-  margin-left: 200px;
+  padding-top: 30px;
 }
 .text-jumbotron h1{
   font-size: 45px;
   color: #33475B;
 }
-.text-jumbotron p{
-  padding-top: 30px;
-  line-height: 25px;
-  font-size: 14px;
-  font-weight: 500;
-}
+
 .text-jumbotron span{
   display: block;
   font-size: 10px;
+}
+
+.powerful{
+  height: 1000px;
+  background-color: #F4F9FD;
+  color: #33475B;
+  text-align: center;
+}
+.image{
+  width: 263px;
+  height: 197px;
+  margin: 35px auto;
+  background-color: #F4F9FD;
+  background-image: url("../img/integrations.png");
+  background-size: contain;
 }
