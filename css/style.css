@@ -21,6 +21,7 @@ p{
   font-weight: 500;
 }
 
+/* NOTE: CONTENITORI */
 .contenitore70{
   height: 100%;
   width: 70%;
@@ -33,24 +34,8 @@ p{
   margin: auto;
 }
 
-.infobox{
-  background-color: white;
-  box-shadow: 2px 1px 2px 2px lightgrey;
-  border-radius: 5px;
-  width: 90%;
-  height: 400px;
-  margin: 50px auto;
-}
-.infobox-left{
-  width: 35%;
-  height: 100%;
-  float: left;
-}
-.infobox-right{
-  width: 65%;
-  height: 100%;
-  float: right;
-}
+
+/* NOTE: /FINE CONTENITORI */
 
 
 .clearfix::after{
@@ -59,6 +44,7 @@ p{
   clear: both;
 }
 
+/* NOTE: LISTE MENU' HEADER */
 .list-inline{
   height: 100%;
   list-style: none;
@@ -85,6 +71,9 @@ p{
 #search{
   color: #75CAD9
 }
+/* NOTE: /LISTE MENU' HEADER */
+
+/* NOTE: PULSANTI */
 .bottom-style{
   display: inline-block;
   padding: 10px;
@@ -110,7 +99,9 @@ a.bottom-style-orange-big{
   margin-bottom: 30px;
   text-decoration: none;
 }
+/* NOTE: /PULSANTI */
 
+/* NOTE: HEADER */
 .header-top{
   position: fixed;
   top: 0;
@@ -158,7 +149,9 @@ a.bottom-style-orange-big{
 .header-bottom-right i{
   padding-left: 15px;
 }
+/* NOTE: /HEADER */
 
+/* NOTE: JUMBOTRON */
 #jumbotron{
 height: 695px;
 background-image: url('../img/jumbotron.png');
@@ -174,10 +167,44 @@ background-repeat: no-repeat;
   font-size: 45px;
   color: #33475B;
 }
-
 .text-jumbotron span{
   display: block;
   font-size: 10px;
+}
+/* NOTE: /JUMBOTRON */
+
+/* NOTE: SEZIONE POWERFUL-FREE HUBSPOT */
+
+.infobox{
+  background-color: white;
+  box-shadow: 2px 1px 2px 2px lightgrey;
+  border-radius: 5px;
+  width: 90%;
+  height: 350px;
+  margin: 50px auto;
+}
+.infobox-left{
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+.infobox-right{
+  width: 65%;
+  height: 100%;
+  float: right;
+  text-align:left;
+  padding-top: 65px;
+}
+.infobox-right h4{
+  padding-top: 20px;
+  display: inline-block;
+}
+.infobox-right hr{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+  width: 400px;
+  border-top: 2px solid #899397;
 }
 
 .powerful-free-hubspot{
@@ -186,7 +213,7 @@ background-repeat: no-repeat;
   color: #33475B;
   text-align: center;
 }
-.image{
+.image-cube{
   width: 263px;
   height: 197px;
   margin: 35px auto;
@@ -195,10 +222,11 @@ background-repeat: no-repeat;
   background-size: contain;
 }
 
-#crm-image{
+.infobox-left #crm-image{
   width: 150px;
   height: 150px;
-  margin: 50px auto;
+  margin-top: 30px;
+  margin-left: 100px;
   background-image: url('../img/crm.svg');
   background-repeat: no-repeat;
   background-size: contain;
