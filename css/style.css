@@ -29,10 +29,28 @@ p{
 
 .contenitore85{
   width: 85%;
-  height: 50%;
+  height: 100%;
   margin: auto;
 }
 
+.infobox{
+  background-color: white;
+  box-shadow: 2px 1px 2px 2px lightgrey;
+  border-radius: 5px;
+  width: 90%;
+  height: 400px;
+  margin: 50px auto;
+}
+.infobox-left{
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+.infobox-right{
+  width: 65%;
+  height: 100%;
+  float: right;
+}
 
 
 .clearfix::after{
@@ -162,8 +180,8 @@ background-repeat: no-repeat;
   font-size: 10px;
 }
 
-.powerful{
-  height: 1000px;
+.powerful-free-hubspot{
+  height: 100%;
   background-color: #F4F9FD;
   color: #33475B;
   text-align: center;
@@ -175,4 +193,14 @@ background-repeat: no-repeat;
   background-color: #F4F9FD;
   background-image: url("../img/integrations.png");
   background-size: contain;
+}
+
+#crm-image{
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+  background-image: url('../img/crm.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
