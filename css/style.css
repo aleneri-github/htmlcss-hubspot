@@ -357,3 +357,60 @@ text-align: left;
 .section-table span{
   font-size: 12px;
 }
+
+.customers{
+  width: 100%;
+  height: 700px;
+}
+.customers-top{
+  padding-top: 40px;
+}
+.customers-top-left{
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 0 50px;
+}
+.customers-top-left h2{
+  display: inline;
+  font-size: 50px;
+}
+.customers-top-right{
+  float: right;
+  width: 70%;
+  height: 300px;
+}
+.logo{
+  display: inline;
+  height: 80px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+#shopify{
+  background-image: url("../img/shopify.png");
+}
+#usabilia{
+  background-image: url("../img/usabilia.png");
+}
+#tufts{
+  background-image: url("../img/tufts.png");
+}
+#iadvize{
+  background-image: url("../img/iadvize.png");
+}
+#mention{
+  background-image: url("../img/mention.webp");
+}
+#care{
+  background-image: url("../img/care.png");
+}
+#scrive{
+  background-image: url("../img/scrive.png");
+}
+#randstad{
+  background-image: url("../img/Randstad-logo_main_99ACC2.png");
+}
