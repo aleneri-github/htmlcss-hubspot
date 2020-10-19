@@ -103,9 +103,18 @@ a.bottom-style-orange{
   background-color: #FE775A;
   color: white;
 }
+.bottom-style-orange:hover{
+ background-color: rgba(100, 100, 100, 0.4);
+}
+.bottom-style-orange-big:hover{
+  background-color: rgba(100, 100, 100, 0.4);
+}
 a.bottom-style-white{
   background: white;
   color: #FE775A;
+}
+.bottom-style-white:hover{
+  background-color: rgba(100, 100, 100, 0.4);
 }
 a.bottom-style-orange-big{
   padding: 20px 40px;
@@ -315,7 +324,7 @@ text-align: left;
   width: 100%;
   height: 700px;
   padding-top: 40px;
-  background-color: #00BBA8;
+  background-color: #00AFB1;
   text-align: center;
   color: #FFFFFF;
 }
