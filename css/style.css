@@ -40,6 +40,13 @@ li > i{
   margin: auto;
 }
 
+.contenitore50{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  padding-top: 25px;
+}
+
 
 /* NOTE: /FINE CONTENITORI */
 
@@ -328,4 +335,7 @@ text-align: left;
 }
 .row-table-bottom div{
   border-bottom: 0px;
+}
+.row-table-bottom .section-table .contenitore50:first-child img{
+  max-width: 150px;
 }
