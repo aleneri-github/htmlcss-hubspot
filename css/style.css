@@ -190,7 +190,7 @@ background-repeat: no-repeat;
   font-size: 45px;
   color: #33475B;
 }
-.text-jumbotron span{
+.small-txt{
   display: block;
   font-size: 10px;
 }
@@ -360,7 +360,7 @@ text-align: left;
 
 .customers{
   width: 100%;
-  height: 700px;
+  height: 100%;
 }
 .customers-top{
   padding-top: 40px;
@@ -368,17 +368,16 @@ text-align: left;
 .customers-top-left{
   float: left;
   width: 30%;
-  height: 300px;
+  height: 100%;
   padding: 0 50px;
 }
 .customers-top-left h2{
-  display: inline;
   font-size: 50px;
 }
 .customers-top-right{
   float: right;
   width: 70%;
-  height: 300px;
+  height: 100%;
 }
 .logo{
   display: inline;
@@ -413,4 +412,14 @@ text-align: left;
 }
 #randstad{
   background-image: url("../img/Randstad-logo_main_99ACC2.png");
+}
+
+.customers-bottom-left{
+  width: 40%;
+  height: 500px;
+  padding-top: 60px;
+}
+.customers-bottom-left h2{
+  font-size: 30px;
+
 }
