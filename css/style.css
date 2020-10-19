@@ -122,6 +122,26 @@ a.bottom-style-orange-big{
   margin-bottom: 30px;
   text-decoration: none;
 }
+
+#bottom-style-big-white{
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #DADEE0;
+  color: #32495B;
+  font-size: 14px;
+}
+a#bottom-style-big-white{
+  text-decoration: none;
+}
+#bottom-style-big-white:hover{
+background-color: rgba(255, 255, 255, 0.4);  
+}
+
+
+
 /* NOTE: /PULSANTI */
 
 /* NOTE: HEADER */
@@ -453,13 +473,12 @@ footer{
   height: 100%;
   padding: 15px;
   margin-top: 25px;
-  background-color: grey;
-  border: 1px solid black;
+  background-color: #32495B;
   float: left;
-  color: white;
+  color: #CBD6E2;
 }
 .container-list h5{
-  margin: 10px 30px;
+  margin: 10px 15px;
 }
 
 .footer-bottom{
@@ -469,8 +488,9 @@ footer{
 }
 
 .footer-list li{
-  padding: 10px 30px;
+  padding: 10px 15px;
   list-style: none;
+  font-size: 14px;
 }
 .footer-list a{
   text-decoration: none;
