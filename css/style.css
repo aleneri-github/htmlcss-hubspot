@@ -125,7 +125,7 @@ a.bottom-style-orange-big{
 
 #bottom-style-big-white{
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 14px;
   margin: 10px 10px;
   border: 1px solid white;
   border-radius: 5px;
@@ -137,11 +137,8 @@ a#bottom-style-big-white{
   text-decoration: none;
 }
 #bottom-style-big-white:hover{
-background-color: rgba(255, 255, 255, 0.4);  
+background-color: rgba(255, 255, 255, 0.4);
 }
-
-
-
 /* NOTE: /PULSANTI */
 
 /* NOTE: HEADER */
@@ -457,8 +454,9 @@ text-align: left;
 }
 
 footer{
+  position: relative;
   width: 100%;
-  height: 700px;
+  height: 650px;
   background-color: #32495B;
   color: black;
 }
@@ -482,9 +480,9 @@ footer{
 }
 
 .footer-bottom{
-  width: 100%;
+  margin: auto;
+  width: 50%;
   height: 30%;
-  background-color: pink;
 }
 
 .footer-list li{
@@ -498,4 +496,44 @@ footer{
 }
 .footer-list a:hover{
   text-decoration: underline;
+}
+
+.loghi-social li{
+  display: inline-block;
+  font-size: 14px;
+}
+.loghi-social a:hover{
+  color: lightblue;
+}
+
+.under-footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #32495B;
+}
+.under-footer hr{
+  width: 85%;
+  margin: auto;
+}
+.under-footer-left{
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  width: 50%;
+  height: 80%;
+}
+.copyright{
+  display: block;
+  color: white;
+  font-size: 15px;
+}
+.under-footer-right{
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  width: 18%;
+  height: 70%;
 }
