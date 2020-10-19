@@ -22,6 +22,11 @@ p{
   font-weight: 500;
 }
 
+li > i{
+  color: #FE775A;
+  margin-right: 10px;
+}
+
 /* NOTE: CONTENITORI */
 .contenitore70{
   height: 100%;
@@ -55,6 +60,7 @@ p{
   line-height: 79px;
   display: inline-block;
   padding: 0 10px;
+
 }
 .list-inline li:first-child{
   padding-left: 0;
