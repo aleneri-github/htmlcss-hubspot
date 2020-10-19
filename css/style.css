@@ -369,7 +369,7 @@ text-align: left;
   float: left;
   width: 30%;
   height: 100%;
-  padding: 0 50px;
+  padding: 50px 50px;
 }
 .customers-top-left h2{
   font-size: 50px;
@@ -378,6 +378,7 @@ text-align: left;
   float: right;
   width: 70%;
   height: 100%;
+  padding-top: 50px;
 }
 .logo{
   display: inline;
@@ -413,7 +414,9 @@ text-align: left;
 #randstad{
   background-image: url("../img/Randstad-logo_main_99ACC2.png");
 }
-
+.customers-bottom{
+  position: relative;
+}
 .customers-bottom-left{
   width: 40%;
   height: 500px;
@@ -421,5 +424,14 @@ text-align: left;
 }
 .customers-bottom-left h2{
   font-size: 30px;
+}
 
+.customers-bottom-right{
+  position: absolute;
+  bottom: 125px;
+  right: 25px;
+  padding-top: 200px;
+}
+.customers-bottom-right img{
+  max-width: 300px;
 }
